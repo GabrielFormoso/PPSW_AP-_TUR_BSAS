@@ -1,76 +1,176 @@
-section {
-    float: right;
-    width: 60%;
-    max-height: 100%;
+* {
+  background-color: #c2b280;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+  border: black 1px solid;
+  box-shadow: 5px 5px 5px black;
+  flex-wrap: wrap;
 }
-
-img {
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-aside,
-nav {
-    float: left;
-    width: 25%;
-    margin: 20px;
-    width: 35%;
-}
-
-p {
-    text-align: justify;
-    margin: 20px;
-    margin-top: 30px;
-}
-
-h1,
-h2,
-h3 {
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 25px;
-}
-
 body {
-    background-color: #C2B280;
-    align-content: stretch;
-    min-height: 100%;
+  align-content: stretch;
+  min-height: 100%;
+  width: 90%;
+  align-items: center;
 }
-
-footer {
-    display: grid;
-    text-align: center;
-    width: 100%;
-    padding: 10, 0, 10, 0;
-    margin: 5, 5;
-    background-color: white;
-}
-
-.videos {
-    display: flex;
-    max-width: 95%;
-}
-
-video {
-    max-width: 30%;
-    padding: 2%;
-    margin: 5, 10, 5, 10;
-    border: 1;
-}
-
-h5, .desen {
-    text-align: left;
+header {
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
 }
 
 #logo {
-    width: 100%;
-    height: 7cm;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 7cm;
 }
 
-.midias{
-    width: 100%;
+nav {
+  background-color: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+nav a {
+  background-color: aliceblue;
+  box-sizing: content-box;
+  padding: auto 5%;
+  margin: 0%;
+  text-align: center;
 }
 
-h6{
-    text-align: center;
+section {
+  background-color: aliceblue;
+  align-content: center;
+}
+
+#esquerda {
+  display: block;
+  width: 70%;
+  float: left;
+}
+
+#direita {
+  display: block;
+  width: 30%;
+  float: right;
+}
+
+#segundasection {
+  float: right;
+  width: 100%;
+  max-height: 100%;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+aside {
+  float: left;
+  margin: 20px;
+}
+
+#navegacao {
+  display: flexbox;
+  align-items: center;
+}
+p {
+  text-align: justify;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  background-color: skyblue;
+}
+
+h2,
+h3 {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  background-color: aliceblue;
+}
+
+p {
+  background-color: aliceblue;
+}
+
+footer {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  padding: 10, 0, 10, 0;
+  margin: 5, 5;
+  background-color: white;
+}
+
+.videos {
+  display: flex;
+  max-width: 95%;
+}
+
+video {
+  max-width: 30%;
+  padding: 2%;
+  margin: 5, 10, 5, 10;
+  border: 1;
+}
+
+.desenT {
+  max-width: 30%;
+  flex-wrap: wrap;
+  padding: 2px;
+  margin: 2px;
+  text-align: left;
+}
+
+.desen {
+  max-width: 30%;
+  flex-wrap: wrap;
+  padding: 2px;
+  padding-left: 15%;
+  margin: 2px;
+  text-align: left;
+}
+
+.midias {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+h6 {
+  text-align: center;
+}
+
+article {
+  background-color: skyblue;
+  align-content: center;
+}
+
+form {
+  background-color: white;
+}
+
+#edit {
+  background-color: white;
+}
+
+ul,
+li {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+  border: none;
+  box-shadow: none;
+  flex-wrap: wrap;
+  align-items: center;
 }
