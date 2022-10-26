@@ -60,6 +60,7 @@ section {
 
 #segundasection {
   float: right;
+  display: block;
   width: 100%;
   max-height: 100%;
 }
@@ -104,13 +105,38 @@ p {
 }
 
 footer {
-  display: grid;
+  display: flex;
   text-align: center;
   width: 100%;
   padding: 10, 0, 10, 0;
   margin: 5, 5;
   background-color: white;
 }
+#desenvolvidores{
+  width: 25%;
+  float: left;
+}
+#edit {
+  background-color: white;
+  display: block;
+  width: 100%!important;
+  clear: both;
+}
+
+form {
+  background-color: white;
+  width: 75%;
+  float: right;
+}
+label, input {
+  background-color: white;
+  text-align: center;
+}
+footer h4 {
+  text-align: justify;
+}
+
+
 
 .videos {
   display: flex;
@@ -122,23 +148,6 @@ video {
   padding: 2%;
   margin: 5, 10, 5, 10;
   border: 1;
-}
-
-.desenT {
-  max-width: 30%;
-  flex-wrap: wrap;
-  padding: 2px;
-  margin: 2px;
-  text-align: left;
-}
-
-.desen {
-  max-width: 30%;
-  flex-wrap: wrap;
-  padding: 2px;
-  padding-left: 15%;
-  margin: 2px;
-  text-align: left;
 }
 
 .midias {
@@ -155,15 +164,6 @@ article {
   background-color: skyblue;
   align-content: center;
 }
-
-form {
-  background-color: white;
-}
-
-#edit {
-  background-color: white;
-}
-
 ul,
 li {
   box-sizing: border-box;
